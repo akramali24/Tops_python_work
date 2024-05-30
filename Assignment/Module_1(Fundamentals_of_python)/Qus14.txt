@@ -1,0 +1,13 @@
+What are negative indexes and why are they used? 
+
+Negative indexes:-Use negative indexes to start the slice from the end of the string.
+
+-When you use a negative index, you’re essentially counting from the end of the sequence.
+-The last element has an index of -1, the second-to-last element has an index of -2, and so on.
+
+example:- list=[1,2,3,4,5,6]
+          print(list[-1])
+          print(list[:-2])
+
+output:-[6]
+      :-[1,2,3,4]

@@ -1,0 +1,5 @@
+How memory is managed in Python? 
+
+Memory Manager: Python's memory manager handles the allocation of heap space for Python objects.
+                It provides a high-level interface for memory management, making it easy for
+                developers to work with memory without worrying about the underlying details.
