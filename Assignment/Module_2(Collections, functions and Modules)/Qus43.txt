@@ -1,0 +1,23 @@
+Why Do You Use the Zip () Method in Python?
+
+Ans:-The zip() function in Python is used to combine multiple iterables (like lists or tuples) element-wise into a single 
+     iterable of tuples. Each tuple contains elements from the input iterables at the corresponding positions.
+
+Example1:-names = ["akram", "abbas", "mohammad"]
+        ages = [25, 30, 35]
+
+        for name, age in zip(names, ages):
+            print(f"{name} is {age} years old.")
+
+Output:-akram is 25 years old.
+        abbas is 30 years old.
+        mohammad is 35 years old.
+
+Example2:- keys = ["name", "age", "city"]
+           values = ["akram", 25, "New York"]
+
+           person_dict = dict(zip(keys, values))
+           print(person_dict)
+ 
+Output:-{'name': 'akram', 'age': 25, 'city': 'New York'}
+

@@ -1,0 +1,15 @@
+What is tuple? Difference between list and tuple. 
+
+Tuple:-Tuples are used to store multiple items in a single variable.
+      -immutable, ordered, duplicate values are allowed, indexing, slicing.
+      -Tuples are written with round brackets like ().
+
+Difference between list and tuple.
+
+          List             |       Tuple
+-list is mutable and       |-tuple is immutable and.
+ ordered.                  | ordered
+-list is allowed duplicate |-Tuple is allowed also duplicate
+ values                    | values
+-list a store multiple     |-tuple a store multiple items in 
+ items in single variable. | single variable.

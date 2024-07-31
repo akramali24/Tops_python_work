@@ -1,0 +1,12 @@
+How will you set the starting value in generating random numbers?
+
+Ans:-The starting value for generating random numbers is set using a process called "seeding." 
+     The seed is a value used to initialize the random number generator (RNG). 
+     Once the RNG is seeded, it will produce a sequence of random numbers based on that seed.
+
+example:-import random
+
+         random.seed(42)
+         print(random.randint(1, 100))
+         print(random.random())
+

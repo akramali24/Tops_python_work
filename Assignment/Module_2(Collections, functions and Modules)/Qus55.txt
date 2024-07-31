@@ -1,0 +1,35 @@
+How can you get a random number in python?
+
+Ans:-In Python, you can generate a random number using the random module, which provides various functions for generating random numbers.
+
+(i)Random Float Between 0 and 1:
+
+import random
+random_number = random.random()
+print(random_number)
+
+(ii)Random Integer Within a Range:
+
+import random
+random_integer = random.randint(1, 10)  # Generates a random integer between 1 and 10 (inclusive)
+print(random_integer)
+
+(iii)Random Float Within a Range:
+
+import random
+random_float = random.uniform(1.5, 10.5)  # Generates a random float between 1.5 and 10.5
+print(random_float)
+
+(iv)Random Choice from a List:
+
+import random
+items = ['apple', 'banana', 'cherry']
+random_item = random.choice(items)
+print(random_item)
+
+(v)Randomly Shuffle a List:
+
+import random
+items = ['apple', 'banana', 'cherry']
+random.shuffle(items)
+print(items)

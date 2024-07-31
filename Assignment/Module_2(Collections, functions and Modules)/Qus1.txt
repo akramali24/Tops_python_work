@@ -1,0 +1,18 @@
+1.What is List? How will you reverse a list?
+
+list:- lists are used to store multiple items in a single variable.
+     - list is mutable and ordered, duplicate values are allowed, indexing, slicing.
+
+How will you reverse a list?
+
+reverse:- The reverse() method reverses the sorting order of the elements.
+
+syntax:- 
+       list_name.reverse()
+
+exmple:- 
+       list_name=[1,2,3,4,5]
+       list_name.reverse()
+       print(list_name)
+
+output:- [5,4,3,2,1]

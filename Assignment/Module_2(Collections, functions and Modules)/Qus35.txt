@@ -1,0 +1,33 @@
+How Do You Traverse Through A Dictionary Object In Python?
+
+Ans:- Traversing through a dictionary object in Python can be done in several ways,
+      depending on what elements (keys, values, or key-value pairs) you want to access. 
+
+example1:- Traversing Keys:-
+
+            ->You can iterate over the keys of a dictionary using a 
+            for loop directly on the dictionary.
+
+            my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+            for key in my_dict:
+                print(key)
+   
+example2:- Traversing Values:-
+
+            ->To iterate over the values, use the .values() method.
+                   
+            my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+            for value in my_dict.values():
+            print(value)
+
+example3:- Traversing Key-Value Pairs:-
+
+            ->To iterate over key-value pairs, use the .items() method.
+
+            my_dict = {'a': 1, 'b': 2, 'c': 3}
+            
+            for key, value in my_dict.items():
+                print(f"Key: {key}, Value: {value}")
+

@@ -1,0 +1,25 @@
+How will you compare two lists? 
+
+ans:- Comparing two lists in Python typically involves checking
+      for equality or determining certain relationships between 
+      their elements.
+
+example1:-Check if two lists contain exactly the same elements in the same order.
+        
+        list1 = [1, 2, 3]
+        list2 = [1, 2, 3]
+
+        if list1 == list2:
+            print("Lists are exactly equal")
+        else:
+            print("Lists are not equal")
+
+example2:-Check if two lists contain the same elements, regardless of their order.
+
+        list1 = [1, 2, 3]
+        list2 = [3, 2, 1]
+
+        if sorted(list1) == sorted(list2):
+            print("Lists are equal")
+        else:
+            print("Lists are not equal")

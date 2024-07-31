@@ -1,0 +1,12 @@
+How will you create a dictionary using tuples in python?
+
+Ans:-Creating a dictionary using tuples in Python can be done
+     in several ways, depending on the format of the tuples. 
+    
+example:-Using a Tuple of Tuples:-
+    
+        tuples_tuple = (('a', 1), ('b', 2), ('c', 3))
+
+        dictionary = dict(tuples_tuple)
+
+        print(dictionary)

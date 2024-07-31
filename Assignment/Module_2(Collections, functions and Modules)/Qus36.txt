@@ -1,0 +1,24 @@
+How Do You Check The Presence Of A Key In A Dictionary?
+
+Ans:-In Python, you can check for the presence of a key in a dictionary using a methods.
+
+example1:-Using the in Operator:-
+       
+        ->The simplest and most Pythonic way to check if a key exists in a dictionary is 
+        to use the in operator.
+        
+        my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+        if 'a' in my_dict:
+            print("Key 'a' is present in the dictionary.")
+        else:
+            print("Key 'a' is not present in the dictionary.")
+
+example2:-Using the 'keys()' method.
+ 
+        my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+        if 'a' in my_dict.keys():
+            print("Key 'a' is present in the dictionary.")
+        else:
+            print("Key 'a' is not present in the dictionary.")

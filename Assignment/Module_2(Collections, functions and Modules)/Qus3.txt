@@ -1,0 +1,30 @@
+Differentiate between append () and extend () methods? 
+
+Append():-The append() method adds a single element to the end of a list.
+        It takes one argument (the object to be added) and appends it as a single entry to the list.
+        The length of the list increases by one.
+
+example1:-list=[1,2,3,4]
+         list.append(5)
+         print(list)
+
+output:-[1,2,3,4,5]
+
+example2:-list=[1,2,3,4,5]
+          list1=[6,7]
+          list.append(list1)
+          print(list)
+
+output:-[1,2,3,4,5,[6,7]]
+
+Extend():-The extend() method adds the specified list elements (or any iterable) to the end of the current list.
+          It accepts an iterable (such as a list, tuple, or string) as its argument.
+          The elements from the iterable are added individually to the end of the initial list.
+          The length of the list increases by the number of elements in the iterable.
+
+example1:-list=[1,2,3,4,5,6]
+          list1=[7,8,9]
+          list.extend(list1)
+          print(list)
+
+output:-[1,2,3,4,5,6,7,8,9]
