@@ -1,0 +1,17 @@
+When is the finally block executed?
+
+Ans:- The finally block is executed after the try and any except blocks have finished executing, 
+      regardless of whether an exception was raised or handled. This makes it useful for performing 
+      cleanup actions, such as closing files or releasing resources, which need to happen no matter what.
+
+example:- 
+def divide(x, y):
+    try:
+        result = x / y
+        print("Result:", result)
+    except ZeroDivisionError as e:
+        print("Caught an exception:", e)
+    finally:
+        print("Executing finally block")
+
+

@@ -1,0 +1,19 @@
+Explain Exception handling? What is an Error in Python?
+
+Ans:- Exception handling in Python is a way to handle errors or other exceptional conditions that occur during the 
+execution of a program. It allows a program to continue running even when an unexpected event happens. This is done 
+using the try, except, else, and finally blocks.
+
+Type of error in python:-
+
+ZeroDivisionError: Raised when division or modulo by zero takes place.
+
+IndexError: Raised when trying to access an index that is out of range.
+
+KeyError: Raised when trying to access a key that is not in a dictionary.
+
+ValueError: Raised when a function receives an argument of the right type but inappropriate value.
+
+TypeError: Raised when an operation or function is applied to an object of inappropriate type.
+
+FileNotFoundError: Raised when a file or directory is requested but doesn’t exist.

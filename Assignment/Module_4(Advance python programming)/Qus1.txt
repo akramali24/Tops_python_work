@@ -1,0 +1,8 @@
+What is File function in python? What is keywords to create and write file.
+
+Ans:-File handling is done using built-in functions that allow you to create, read, write, and delete files. 
+The main functions used for file handling are:
+
+'x': Exclusive creation mode. Creates a new file. If the file already exists, it raises an error.
+
+'w': Write mode. Opens a file for writing. If the file exists, it truncates the file to zero length. If the file does not exist, it creates a new file.

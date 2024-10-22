@@ -1,0 +1,13 @@
+Can one block of except statements handle multiple exception?
+
+Ans:- Yes, a single except block can handle multiple exceptions in Python. You can do this by specifying a tuple
+      of exception types in the except clause. Here’s an example:
+
+example:-
+
+try:
+    # Some code that might raise an exception
+    x = int(input("Enter a number: "))
+    result = 10 / x
+except (ValueError, ZeroDivisionError) as e:
+    print(f"An error occurred: {e}")

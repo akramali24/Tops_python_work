@@ -1,0 +1,27 @@
+Q_28. What relationship is appropriate for Course and Faculty?
+
+1. One-to-Many (1)
+
+   Description: A single faculty member can teach many courses, but each course is taught by only one faculty member.
+   Example:
+        Faculty Member: Dr. Smith
+        Courses: Math 101, Physics 201, and Chemistry 305
+        Use Case: This is suitable when each course is primarily associated with one instructor or faculty member.
+
+2. Many-to-Many (M)
+
+    Description: Multiple faculty members can teach the same course, and a faculty member can teach multiple courses.
+    Example:
+        Faculty Members: Dr. Smith, Dr. Johnson
+        Courses: Math 101, Physics 201
+        Both Dr. Smith and Dr. Johnson can be listed as instructors for Math 101, and they might also teach other courses.
+        Use Case: This is appropriate for situations like team-teaching or when a course has multiple instructors or sections, each led by different faculty members.
+        Implementation: You would need a junction table (or bridge table) to represent this many-to-many relationship, such as Faculty_Course.
+
+3. One-to-One (1:1)
+
+    Description: Each course is assigned to exactly one faculty member, and each faculty member teaches only one course.
+    Example:
+        Faculty Member: Dr. Smith
+        Course: Math 101
+        Use Case: This is less common and applies when a faculty member is exclusively dedicated to one course, perhaps in very specialized programs.

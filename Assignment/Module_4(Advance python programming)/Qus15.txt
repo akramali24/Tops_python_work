@@ -1,0 +1,24 @@
+When will the else part of try-except-else be executed?
+
+Ans:- The else block in a try-except-else statement is executed only if no exceptions are raised in the try block. 
+      
+Here is the structure:-
+try:
+    # Code that might raise an exception
+except SomeException:
+    # Code that runs if an exception is raised in the try block
+else:
+    # Code that runs if no exception is raised in the try block
+
+So, the else block will run under these conditions:
+
+1.The code in the try block executes without raising any exceptions.
+2.None of the except blocks are executed.
+
+example:- 
+try:
+    x = 1 / 1  # No exception here
+except ZeroDivisionError:
+    print("Caught a division by zero!")
+else:
+    print("No exceptions were raised.")  # This will be executed

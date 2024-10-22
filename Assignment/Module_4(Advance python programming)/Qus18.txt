@@ -1,0 +1,12 @@
+What happens when „1‟== 1 is executed?
+
+Ans:- The expression „1‟ == 1 compares a string ("1") to an integer (1). Since Python's == operator does not perform
+      type coercion, it checks for both the value and the type. Because the types of the two operands are different 
+      (one is a string and the other is an integer), the comparison returns False.
+
+example:-
+
+result = "1" == 1
+print(result)  # Output: False
+
+The output is False because the string "1" is not equal to the integer 1.
